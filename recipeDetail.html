@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/owlcarousal/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owlcarousal/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+
+</head>
+<body>
+    <div class="site-wrapper">
+        <header class="site-header">
+            <div class="container">
+                <div class="top-menu menu">
+                    <div class="site-logo">
+                        <a href="index.html"><img src="img/logo.e68246686f716ff6e5d8.png" alt="Logo"></a>
+                    </div>
+                    <nav class="navbar">
+                        <div class="menu-wrap">
+                            <ul class="menu-inner">
+                                <li class="menu-item"><a href="index.html" class="menu-link " >Home</a></li>
+                                <li class="menu-item"><a href="recipeDetail.html" class="menu-link active" >Recipes</a></li>
+                                <li class="menu-item"><a href="blogList.html" class="menu-link" >Blog</a></li>
+                                <li class="menu-item"><a href="contactUs.html" class="menu-link" >Contact</a></li>
+                                <li class="menu-item"><a href="blogPost.html" class="menu-link" >About us</a></li>
+                            </ul>
+                            <ul class="social-button">
+                                <li><a href="#"><img src="assets/images/facebook.png" alt="facebook Logo"></a></li>
+                                <li><a href="#"><img src="assets/images/twitter.png" alt="twitter Logo"></a></li>
+                                <li><a href="#"><img src="assets/images/instagram.png" alt="instagram Logo"></a></li>
+                            </ul>
+                        </div>
+                        <!-- <div class="social-button">
+                            <div class="social-icon">
+                                <img src="assets/images/facebook.png" alt="facebook logo">
+                            </div>
+                            <div class="social-icon">
+                                <img src="assets/images/twitter.png" alt="facebook logo">
+                            </div>
+                            <div class="social-icon">
+                                <img src="assets/images/instagram.png" alt="facebook logo">
+                            </div>
+                        </div> -->
+                    </nav>
+                    
+                    <div class="menu-icon">
+                        <span class="first"></span>
+                        <span class="second"></span>
+                        <span class="third"></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="site-content">
+            <section class="recipe-main-section section">
+                <div class="container">
+                    <div class="recipe-main-inner">
+                        <div class="recipe-main-content">
+                            <div class="recipe-title-data">
+                                <div class="recipe-main-left">
+                                    <h1>Health Japanese Fried Rice</h1>
+                                    <div class="profile">
+                                        <div class="profile-content d-flex">
+                                            <div class="profile-inner d-flex">
+                                                <div class="profile-image">
+                                                    <img src="assets/images/profile-img.png" alt="profile image">
+                                                </div>
+                                                <div class="profile-data">
+                                                    <p class="profile-name">John Smith</p>
+                                                    <p class="profile-date small-title">15 March 2022</p>
+                                                </div>
+                                            </div>
+                                            <div class="recipe-export d-flex d-sm-none">
+                                                <div class="export-button">
+                                                    <div class="img-wrapper">
+                                                        <img src="assets/images/printer.png" alt="">
+                                                    </div>
+                                                    <p class="small-title">printer</p>
+                                                </div>
+                                                <div class="export-button">
+                                                    <div class="img-wrapper">
+                                                        <img src="assets/images/share.png" alt="">
+                                                    </div>
+                                                    <p class="small-title">share</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                        <div class="d-flex recipe-time-data">
+                                            <div class="function-type d-flex">
+                                                <img src="assets/images/Timer.png" alt="icon">
+                                                <div class="recipe-function-inner d-flex">
+                                                    <p class="recipe-function">prep time</p>
+                                                    <p class="recipe-function-data small-title">15 Minutes</p>
+                                                </div>
+                                            </div>
+                                            <div class="function-type d-flex">
+                                                <img src="assets/images/Timer.png" alt="icon">
+                                                <div class="recipe-function-inner d-flex">
+                                                    <p class="recipe-function">cook time</p>
+                                                    <p class="recipe-function-data small-title">15 Minutes</p>
+                                                </div>
+                                            </div>
+                                            <div class="function-type tag d-flex"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="recipe-main-right d-none d-sm-flex">
+                                    <div class="recipe-export">
+                                        <div class="export-button">
+                                            <div class="img-wrapper">
+                                                <img src="assets/images/printer.png" alt="">
+                                            </div>
+                                            <p class="small-title">printer</p>
+                                        </div>
+                                        <div class="export-button">
+                                            <div class="img-wrapper">
+                                                <img src="assets/images/share.png" alt="">
+                                            </div>
+                                            <p class="small-title">share</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recipe-main-data row">
+                                 <div class="col-sm-12 col-md-8">
+                                     <div class="recipe-main-img">
+                                         <img src="assets/images/recipefullimg.png" alt="">
+                                     </div>
+                                 </div>
+                                 <div class="col-sm-12 col-md-4">
+                                     <div class="recipe-nutrition">
+                                         <div class="recipe-nutrition-inner">
+                                             <div class="recipe-nutrition-info">
+                                                <h5 class="nutrition-header">Nutrition Information</h5>
+                                                <div class="recipe-nutrition-data d-flex">
+                                                    <p class="nutrition-title">Calories</p>
+                                                    <p class="nutrition-value">219.9 Kcal</p>
+                                                </div>
+                                                <div class="recipe-nutrition-data d-flex">
+                                                    <p class="nutrition-title">Total Fat</p>
+                                                    <p class="nutrition-value">10.7 g</p>
+                                                </div>
+                                                <div class="recipe-nutrition-data d-flex">
+                                                    <p class="nutrition-title">Protein</p>
+                                                    <p class="nutrition-value">7.9 g</p>
+                                                </div>
+                                                <div class="recipe-nutrition-data d-flex">
+                                                    <p class="nutrition-title">Carbohydrate</p>
+                                                    <p class="nutrition-value">22.3 g</p>
+                                                </div>
+                                                <div class="recipe-nutrition-data d-flex">
+                                                    <p class="nutrition-title">Cholesterol</p>
+                                                    <p class="nutrition-value">37.4 mg</p>
+                                                </div> 
+                                             </div>
+                                             <p class="nutrition-desc">adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                         </div>
+                                     </div>
+                                 </div>
+                            </div>
+                            <p class="recipe-full-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>   
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ingredient-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="recipe-full-details left col-sm-12 col-md-8">
+                            <div class="ingredient-inner">
+                                <h3>Ingredients</h3>
+                                <div class="ingredient-items">
+                                    <div class="ingredient-item">
+                                        <h5 class="ingredient-for-title">For Main Dish</h5>
+                                        <div class="ingredient-lists active">
+                                            <ul>
+                                                <li class="ingredient"><p class="ingredient-desc">Lorem ipsum dolor sit amet</p></li>
+                                                <li class="ingredient"><p class="ingredient-desc">Lorem ipsum dolor sit amet</p></li>
+                                                <li class="ingredient"><p class="ingredient-desc">Lorem ipsum dolor sit amet</p></li>
+                                                <li class="ingredient"><p class="ingredient-desc">Lorem ipsum dolor sit amet</p></li>
+                                                <li class="ingredient"><p class="ingredient-desc">Lorem ipsum dolor sit amet</p></li>
+                                                <li class="ingredient"><p class="ingredient-desc">Lorem ipsum dolor sit amet</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="ingredient-item">
+                                        <h5 class="ingredient-for-title">For The Souce</h5>
+                                        <div class="ingredient-lists">
+                                            <ul>
+                                                <li class="ingredient"><p class="ingredient-desc">Lorem ipsum dolor sit amet</p></li>
+                                                <li class="ingredient"><p class="ingredient-desc">Lorem ipsum dolor sit amet</p></li>
+                                                <li class="ingredient"><p class="ingredient-desc">Lorem ipsum dolor sit amet</p></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="recipe-direction-inner">
+                                <h3>Directions</h3>
+                                <div class="direction-items">
+                                    <div class="direction-item">
+                                        <h5 class="direction-title">Lorem ipsum dolor sit amet </h5>
+                                        <div class="direction-info">
+                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                                        </div>
+                                    </div>
+                                    <div class="direction-item">
+                                        <h5 class="direction-title">Lorem ipsum dolor sit amet </h5>
+                                        <div class="direction-info">
+                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                                        </div>
+                                    </div>
+                                    <div class="direction-item">
+                                        <h5 class="direction-title">Lorem ipsum dolor sit amet </h5>
+                                        <div class="direction-info">
+                                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar-other-recipe col-sm-12 col-md-4">
+                            <div class="sidebar-recipe-content">
+                                <div class="sidebar-recipe-inner">
+                                    <h4>Other Recipe</h4>
+                                    <div class="sidebar-recipe-items">
+                                        <div class="sidebar-recipe-item row">
+                                            <div class="recipe-inner col-9 col-sm-6 col-md-12 d-flex">
+                                                <div class="recipe-img">
+                                                    <img class="recipe-item-img" src="assets/images/recipe-detail-other.png" alt="recipeimage">
+                                                </div>
+                                                <div class="recipe-data">
+                                                    <h5 class="recipe-title">Chicken Meatball with Creamy Chees</h5>
+                                                    <p class="small-title">By Andreas Paula</p>
+                                                </div>
+                                            </div>
+                                            <div class="recipe-inner col-9 col-sm-6 col-md-12 d-flex">
+                                                <div class="recipe-img">
+                                                    <img class="recipe-item-img" src="assets/images/recipe-detail-other.png" alt="recipeimage">
+                                                </div>
+                                                <div class="recipe-data">
+                                                    <h5 class="recipe-title">Chicken Meatball with Creamy Chees</h5>
+                                                    <p class="small-title">By Andreas Paula</p>
+                                                </div>
+                                            </div>
+                                            <div class="recipe-inner col-9 col-sm-6 col-md-12 d-flex">
+                                                <div class="recipe-img">
+                                                    <img class="recipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                                </div>
+                                                <div class="recipe-data">
+                                                    <h5 class="recipe-title">Chicken Meatball with Creamy Chees</h5>
+                                                    <p class="small-title">By Andreas Paula</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-none d-md-block recipe-item healthyFood">
+                                    <div class="recipe-inner">
+                                        <div class="recipe-data">
+                                            <p class="title">Don’t forget to eat healthy food</p>
+                                            <div class="recipe-img">
+                                                <img src="assets/images/healthfoodimg.png" alt="recipeimage">
+                                            </div>    
+                                            <p class="site">www.foodieland.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="newsletter-section section">
+                <div class="container">
+                    <div class="newsletter-inner">
+                        <div class="newsletter-content section-content">
+                            <h2 class="section-title">Deliciousness to your inbox</h2>
+                            <p class="section-desc">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+                        </div>
+                        <div class="email-input input-inner">
+                            <input type="email" name="email" id="#email" autocomplete="off" placeholder="Your email address..."><a href="#" class="button">Subscribe</a></input>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+            
+            <section class="tryrecipe-section like-recipe section">
+                <div class="container">
+                    <div class="recipe-content row">
+                        <h3 class="section-title">You may like these recipe too</h3>
+                    </div>
+                    <div class="recipe-items row d-none d-sm-flex">
+                        <div class="recipe-item col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recipe-item col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recipe-item col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recipe-item col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recipe-item col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recipe-item col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recipe-item col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recipe-item col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tryRecipe_slider" class="recipe-items row owl-carousel owl-theme d-flex d-sm-none">
+                        <div class="recipe-item col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recipe-item col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recipe-item col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recipe-item col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recipe-item col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recipe-item col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recipe-item col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recipe-item col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3">
+                            <div class="recipe-inner">
+                                <div class="checkbox">
+                                    <img src="assets/images/checkbox.png" alt="">
+                                </div>
+                                <div class="recipe-img">
+                                    <img class="tryrecipe-item-img" src="assets/images/tryrecipe1.png" alt="recipeimage">
+                                </div>
+                                <div class="recipe-data">
+                                    <h6 class="recipe-title">Big and Juicy Wagyu Beef Cheeseburger</h6>
+                                    <div class="item-type d-flex">
+                                        <div class="timer-tag tag"><img src="assets/images/Timer.png" alt="icon">30 Minutes</div>
+                                        <div class="dish-tag tag"><img src="assets/images/ForkKnife.png" alt="icon">Chicken</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-top row">
+                        <div class="site-logo col-sm-12 col-md-6">
+                            <img src="img/logo.e68246686f716ff6e5d8.png" alt="">
+                            <p class="site-desc">Lorem ipsum dolor sit amet, consectetuipisicing elit, </p>
+                        </div>
+                        <nav class="navbar col-sm-12 col-md-6">
+                            <ul>
+                                <li class="menu-item"><a href="recipeDetail.html" class="menu-link">Recipes</a></li>
+                                <li class="menu-item"><a href="blogList.html" class="menu-link">Blog</a></li>
+                                <li class="menu-item"><a href="contactUs.html" class="menu-link">Contact</a></li>
+                                <li class="menu-item"><a href="blogPost.html" class="menu-link">About us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-bottom row">
+                        <p class="col-12 order-2 col-sm-8 order-sm-1 col-md-8">© 2024. Powered by Satyajit5007</p>
+                        <ul class="social-button order-1 order-sm-2 col-12 col-sm-4 col-md-4">
+                            <li><a href="#"><img src="assets/images/facebook.png" alt="facebook Logo"></a></li>
+                            <li><a href="#"><img src="assets/images/twitter.png" alt="twitter Logo"></a></li>
+                            <li><a href="#"><img src="assets/images/instagram.png" alt="instagram Logo"></a></li>
+                        </ul>
+                        <!-- <div class="social-button order-1 order-sm-2 col-12 col-sm-4 col-md-4">
+                            <div class="social-icon">
+                                <img src="assets/images/facebook.png" alt="facebook logo">
+                            </div>
+                            <div class="social-icon">
+                                <img src="assets/images/twitter.png" alt="facebook logo">
+                            </div>
+                            <div class="social-icon">
+                                <img src="assets/images/instagram.png" alt="facebook logo">
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>  
+</body>
+</html>
